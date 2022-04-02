@@ -1,7 +1,5 @@
 from asyncore import loop
 import requests
-import math
-import numpy
 
 r = requests.get('https://hackersdamatrix.herokuapp.com/at3json')
 
